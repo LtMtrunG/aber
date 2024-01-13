@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+/* Header styles */
+header {
+    background-color: #48CEDC;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    background-color: #48CEDC;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the logo size as needed */
+}
+
+.banner img {
+    width: 1000px; /* Adjust the logo size as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.section-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-text p {
+    text-align: justify;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff6600; 
+}
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+   /* background: rgba(255,255,255,.1); */
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+    background: url('car-32.ico') center/cover;
+}
